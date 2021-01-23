@@ -1,0 +1,77 @@
+
+.second-container {
+    width: 100%;
+    max-width: 1600px;
+    height: 2000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+
+    .second-container__header-text {
+        font-size: 44px;
+        font-family: "Gotham";
+        color: rgb(44, 64, 88);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 0.5;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .second-container__first-block {
+        display: flex;
+        
+        .second-container__first-block_blue-square {
+            background-color: rgb(85, 183, 255);
+            position: relative;
+            width: 585px;
+            height: 470px;
+            margin-top: 140px;
+            z-index: 1;
+        }
+
+        .second-container__first-block_img {
+            position: relative;
+            top: 200px;
+            right: 390px;
+            z-index: 2;
+        }
+
+        .second-container__first-text {
+            margin-top: 200px;
+
+            .second-container__first-text-h4 {
+                font-size: 22px;
+                font-family: "Gotham";
+                color: rgb(44, 64, 88);
+                text-transform: uppercase;
+                line-height: 1.091;
+            }
+
+            .second-container__first-text-h2 {
+                font-size: 44px;
+                font-weight: bold;
+                font-family: "Gotham";
+                color: rgb(0, 0, 0);
+                text-transform: uppercase;
+                line-height: 1.091;
+            }
+            
+            .second-container__first-text-h5{
+                font-size: 18px;
+                font-family: "OpenSans";
+                color: rgb(75, 85, 98); 
+            }
+
+        }
+
+        
+          
+
+
+
+    }
+
+    
+
+
+}
