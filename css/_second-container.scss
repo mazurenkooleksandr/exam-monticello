@@ -23,7 +23,7 @@
         .second-container__first-block_blue-square {
             background-color: rgb(85, 183, 255);
             position: relative;
-            width: 585px;
+            width: 630px;
             height: 470px;
             margin-top: 140px;
             z-index: 1;
@@ -31,13 +31,15 @@
 
         .second-container__first-block_img {
             position: relative;
-            top: 200px;
-            right: 390px;
+            top: 210px;
+            right: 350px;
             z-index: 2;
         }
 
         .second-container__first-text {
-            margin-top: 200px;
+            margin-top: 210px;
+            position: relative;
+            right: 240px;
 
             .second-container__first-text-h4 {
                 font-size: 22px;
@@ -51,27 +53,129 @@
                 font-size: 44px;
                 font-weight: bold;
                 font-family: "Gotham";
-                color: rgb(0, 0, 0);
+                color: rgb(44, 64, 88);
+                text-transform: uppercase;
+                line-height: 1.091;
+                padding-top: 5px;
+            }
+            
+            .second-container__first-text-h5 {
+                width: 100%;
+                max-width: 460px;
+                font-size: 18px;
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(75, 85, 98); 
+                padding-top: 20px;
+            }
+
+            .second-container__first-text-button {
+                font-size: 14px;
+                font-family: "Gotham";
+                text-transform: uppercase;
+                line-height: 1.571;
+                margin-top: 40px;
+                padding: 12px;
+                border: 1px solid rgb(44, 64, 88);
+                text-align: center;
+                width: 188px;
+                height: 48px;
+            }
+
+            .second-container__first-text-italic {
+                padding-top: 40px;
+                font-style: italic;
+
+                .fa-map-marker-alt {
+                    font-size: 18px;
+                    padding-right: 10px;
+                    color: rgb(44, 64, 88);
+                }
+            } 
+        }
+    }
+
+    .second-container__second-block {
+        display: flex;
+        
+        .second-container__second-block_blue-square {
+            background-color: rgb(126, 90, 255);
+            position: relative;
+            width: 630px;
+            height: 470px;
+            margin-top: 200px;
+            z-index: 1;
+        }
+
+        .second-container__second-block_img {
+            position: relative;
+            top: 270px;
+            left: 320px;
+            z-index: 2;
+        }
+
+        .second-container__second-text {
+            margin-top: 270px;
+            position: relative;
+            left: 210px;
+
+            .second-container__second-text-h4 {
+                font-size: 22px;
+                font-family: "Gotham";
+                color: rgb(44, 64, 88);
                 text-transform: uppercase;
                 line-height: 1.091;
             }
+
+            .second-container__second-text-h2 {
+                width: 100%;
+                max-width: 1500px;
+                font-size: 44px;
+                font-weight: bold;
+                font-family: "Gotham";
+                color: rgb(44, 64, 88);
+                text-transform: uppercase;
+                line-height: 1.091;
+                padding-top: 5px;
+                white-space: nowrap;
+            }
             
-            .second-container__first-text-h5{
+            .second-container__second-text-h5 {
+                width: 100%;
+                max-width: 460px;
                 font-size: 18px;
-                font-family: "OpenSans";
+                font-family: 'Open Sans', sans-serif;
                 color: rgb(75, 85, 98); 
+                padding-top: 20px;
             }
 
+            .second-container__second-text-button {
+                font-size: 14px;
+                font-family: "Gotham";
+                text-transform: uppercase;
+                line-height: 1.571;
+                margin-top: 40px;
+                padding: 12px;
+                border: 1px solid rgb(44, 64, 88);
+                text-align: center;
+                width: 188px;
+                height: 48px;
+            }
+
+            .second-container__second-text-italic {
+                padding-top: 40px;
+                font-style: italic;
+
+                .fa-map-marker-alt {
+                    font-size: 18px;
+                    padding-right: 10px;
+                    color: rgb(44, 64, 88);
+                }
+            } 
         }
-
-        
-          
-
-
-
     }
-
-    
-
-
 }
+
+
+  
+
+  
