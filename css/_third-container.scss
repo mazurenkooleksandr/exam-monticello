@@ -1,0 +1,258 @@
+.third-container {
+    width: 100%;
+    max-width: 1600px;
+    height: 1035px;
+    background: linear-gradient( 45deg, rgb(60,127,212) 0%, rgb(36,204,250) 100%);
+    background-image: -moz-linear-gradient( 45deg, rgb(60,127,212) 0%, rgb(36,204,250) 100%);
+    background-image: -webkit-linear-gradient( 45deg, rgb(60,127,212) 0%, rgb(36,204,250) 100%);
+    background-image: -ms-linear-gradient( 45deg, rgb(60,127,212) 0%, rgb(36,204,250) 100%);
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+
+    &::after{
+        content: '';
+        background-image: url("../img/city.png");
+        background-size: cover;
+        width: 100%;
+        max-width: 1600px;
+        height: 1035px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .third-container__header{
+        font-size: 44px;
+        font-family: "Gotham";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 0.5;
+        text-align: center;
+        padding-top: 40px;
+
+        hr {
+            border: none; 
+            background-color: rgb(255, 255, 255);
+            height: 2px;
+            width: 100px;
+            margin: 50px auto;  
+        }
+    }
+
+
+    .third-container__slides {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;
+
+        .third-container__first-slide {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-width: 370px;
+            height: 514px;
+
+            .third-container__first-slide_text-h2 {
+                width: 100%;
+                max-width: 320px;
+                font-size: 22px;
+                font-family: "Gotham";
+                color: rgb(44, 64, 88);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.545;
+                padding-left: 15px;
+                padding-top: 10px;
+            }
+
+            .third-container__first-slide_text-h4 {
+                width: 100%;
+                max-width: 320px;
+                font-size: 18px;
+                font-family: "OpenSans";
+                color: rgb(75, 85, 98);
+                line-height: 1.47;
+                padding-left: 15px;
+                padding-top: 10px;
+                letter-spacing: 0.5px;
+            }
+
+            .third-container__first-slide_author {
+                display: flex;
+                padding-top: 40px;
+                padding-left: 15px;
+
+                .third-container__first-slide_author_img {
+                    border-radius: 50%;
+                }
+
+                .third-container__first-slide_author_name {
+                    font-size: 18px;
+                    font-family: "Gotham";
+                    color: rgb(44, 64, 88);
+                    text-transform: uppercase;
+                    line-height: 1.222;
+                    padding-left: 15px;
+                    padding-top: 10px;
+                }
+
+                .third-container__first-slide_author_date {
+                    font-size: 14px;
+                    font-family: "Gotham";
+                    color: rgb(85, 183, 255);
+                    line-height: 1.571;
+                    padding-left: 15px;
+                    padding-top: 5px;
+                }
+
+            }
+        }
+
+
+        .third-container__second-slide {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-width: 370px;
+            height: 514px;
+
+            .third-container__second-slide_text-h2 {
+                width: 100%;
+                max-width: 320px;
+                font-size: 22px;
+                font-family: "Gotham";
+                color: rgb(44, 64, 88);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.545;
+                padding-left: 15px;
+                padding-top: 10px;
+            }
+
+            .third-container__second-slide_text-h4 {
+                width: 100%;
+                max-width: 320px;
+                font-size: 18px;
+                font-family: "OpenSans";
+                color: rgb(75, 85, 98);
+                line-height: 1.47;
+                padding-left: 15px;
+                padding-top: 10px;
+                letter-spacing: 0.5px;
+            }
+
+            .third-container__second-slide_author {
+                display: flex;
+                padding-top: 40px;
+                padding-left: 15px;
+
+                .third-container__second-slide_author_img {
+                    border-radius: 50%;
+                }
+
+                .third-container__second-slide_author_name {
+                    font-size: 18px;
+                    font-family: "Gotham";
+                    color: rgb(44, 64, 88);
+                    text-transform: uppercase;
+                    line-height: 1.222;
+                    padding-left: 15px;
+                    padding-top: 10px;
+                }
+
+                .third-container__second-slide_author_date {
+                    font-size: 14px;
+                    font-family: "Gotham";
+                    color: rgb(85, 183, 255);
+                    line-height: 1.571;
+                    padding-left: 15px;
+                    padding-top: 5px;
+                }
+
+            }
+        }
+
+
+        .third-container__third-slide {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            max-width: 370px;
+            height: 514px;
+
+            .third-container__third-slide_text-h2 {
+                width: 100%;
+                max-width: 320px;
+                font-size: 22px;
+                font-family: "Gotham";
+                color: rgb(44, 64, 88);
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.545;
+                padding-left: 15px;
+                padding-top: 10px;
+            }
+
+            .third-container__third-slide_text-h4 {
+                width: 100%;
+                max-width: 320px;
+                font-size: 18px;
+                font-family: "OpenSans";
+                color: rgb(75, 85, 98);
+                line-height: 1.47;
+                padding-left: 15px;
+                padding-top: 10px;
+                letter-spacing: 0.5px;
+            }
+
+            .third-container__third-slide_author {
+                display: flex;
+                padding-top: 40px;
+                padding-left: 15px;
+
+                .third-container__third-slide_author_img {
+                    border-radius: 50%;
+                }
+
+                .third-container__third-slide_author_name {
+                    font-size: 18px;
+                    font-family: "Gotham";
+                    color: rgb(44, 64, 88);
+                    text-transform: uppercase;
+                    line-height: 1.222;
+                    padding-left: 15px;
+                    padding-top: 10px;
+                }
+
+                .third-container__third-slide_author_date {
+                    font-size: 14px;
+                    font-family: "Gotham";
+                    color: rgb(85, 183, 255);
+                    line-height: 1.571;
+                    padding-left: 15px;
+                    padding-top: 5px;
+                }
+
+            }
+        }
+
+    }
+
+
+    
+      
+
+    
+      
+        
+
+        
+
+
+}
+
+
+  
+
+  

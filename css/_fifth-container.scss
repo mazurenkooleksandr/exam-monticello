@@ -1,0 +1,95 @@
+.fifth-container {
+    width: 100%;
+    max-width: 1600px;
+    height: 700px;
+    background-image: url("../img/map.png");
+    margin: 0 auto;
+
+    .fifth-container__form {
+        width: 100%;
+        max-width: 770px;
+        height: 450px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px -4px 30px 0px rgba(133, 133, 133, 0.2);
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+      
+        &::after{
+          content: '';
+          background-image: url("../img/city-background.png");
+         background-repeat: no-repeat;
+          width: 100%;
+          max-width: 770px;
+          height: 450px;
+          margin: 0 auto;
+          position: absolute;
+          top: 255px;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          z-index: 1;
+        }
+
+        .fourth-container__header{
+            font-size: 44px;
+            font-family: "Gotham";
+            color: rgb(44, 64, 88);
+            text-transform: uppercase;
+            line-height: 0.5;
+            text-align: center;
+            padding-top: 10px;
+
+            hr {
+                border: none; 
+                background-color: rgb(44, 64, 88);
+                height: 2px;
+                width: 100px;
+                margin: 50px auto;  
+            }
+        }
+
+        .fifth-container__form_box {
+            display: flex;
+
+            .fifth-container__form_box_text {
+                padding-top: 40px;
+
+                .fas,
+                .far {
+                    font-size: 18px;
+                    color: rgb(126, 90, 255);
+                    padding-right: 10px;
+                    padding-left: 50px;
+
+                }
+
+                p {
+                    line-height: 1.889;
+                    font-size: 18px;
+                    font-family: "Gotham";
+                    color: rgb(44, 64, 88);
+                    padding-top: 20px;
+
+                }
+
+            }
+
+        }
+
+        .fifth-container__form_box_string {
+            input[type=text] {
+                border: none;
+                border-bottom: 1px solid rgba(75, 85, 98, 0.502);
+                font-size: 18px;
+                font-family: "Gotham";
+                color: rgba(75, 85, 98, 0.502);
+                line-height: 1.222;
+            }
+
+        }
+    }
+}
+
+
+  
