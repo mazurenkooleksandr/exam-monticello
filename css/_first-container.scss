@@ -40,9 +40,6 @@
   
     .first-container__header_menu{
       display: flex;
-      font-size: 14px;
-      font-family: "Gotham";
-      color: rgb(255, 255, 255);
       text-transform: uppercase;
       padding-top: 48px;
       margin-left: 210px;
@@ -56,6 +53,13 @@
         margin-left: 80px;
         list-style-type: none;
         line-height: 60px;
+
+        a {
+          text-decoration: none;
+          font-size: 14px;
+          font-family: "Gotham";
+          color: rgb(255, 255, 255);
+        }
       }
     }
 
@@ -71,6 +75,10 @@
       height: 54px;
       position: relative;
       z-index: 3;
+
+      a {
+        color: rgb(255, 255, 255);
+      }
 
       .fa-facebook-f {
         margin-left: 20px;
@@ -153,6 +161,11 @@
     &:hover {
       font-size: 16px;
       cursor: pointer;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.7);
     }
 
     .fa-chevron-down{

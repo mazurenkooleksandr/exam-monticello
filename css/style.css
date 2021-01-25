@@ -56,9 +56,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 14px;
-  font-family: "Gotham";
-  color: white;
   text-transform: uppercase;
   padding-top: 48px;
   margin-left: 210px;
@@ -75,6 +72,13 @@
   line-height: 60px;
 }
 
+.first-container .first-container__header .first-container__header_menu li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Gotham";
+  color: white;
+}
+
 .first-container .first-container__header .first-container__header_social-icon {
   padding-left: 80px;
   padding-top: 51px;
@@ -87,6 +91,10 @@
   height: 54px;
   position: relative;
   z-index: 3;
+}
+
+.first-container .first-container__header .first-container__header_social-icon a {
+  color: white;
 }
 
 .first-container .first-container__header .first-container__header_social-icon .fa-facebook-f {
@@ -165,6 +173,11 @@
 .first-container .first-container__scroll:hover {
   font-size: 16px;
   cursor: pointer;
+}
+
+.first-container .first-container__scroll a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .first-container .first-container__scroll .fa-chevron-down {
@@ -258,6 +271,7 @@
   text-align: center;
   width: 188px;
   height: 48px;
+  cursor: pointer;
 }
 
 .second-container .second-container__first-block .second-container__first-text .second-container__first-text-italic {
@@ -340,6 +354,7 @@
   text-align: center;
   width: 188px;
   height: 48px;
+  cursor: pointer;
 }
 
 .second-container .second-container__second-block .second-container__second-text .second-container__second-text-italic {
@@ -387,6 +402,8 @@
   line-height: 0.5;
   text-align: center;
   padding-top: 40px;
+  position: relative;
+  z-index: 3;
 }
 
 .third-container .third-container__header hr {
@@ -404,6 +421,8 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 100px;
+  position: relative;
+  z-index: 3;
 }
 
 .third-container .third-container__slides .third-container__first-slide {
@@ -658,6 +677,7 @@
   width: 188px;
   height: 48px;
   margin: 70px auto;
+  cursor: pointer;
 }
 
 .fifth-container {
@@ -677,7 +697,8 @@
           box-shadow: 0px -4px 30px 0px rgba(133, 133, 133, 0.2);
   margin: 0 auto;
   position: relative;
-  z-index: 2;
+  top: 400px;
+  z-index: 3;
 }
 
 .fifth-container .fifth-container__form::after {
@@ -718,6 +739,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  z-index: 3;
 }
 
 .fifth-container .fifth-container__form .fifth-container__form_box .fifth-container__form_box_text {
@@ -738,14 +761,167 @@
   font-family: "Gotham";
   color: #2c4058;
   padding-top: 20px;
+  white-space: nowrap;
 }
 
-.fifth-container .fifth-container__form .fifth-container__form_box_string input[type=text] {
+.fifth-container .fifth-container__form .fifth-container__form_box .fifth-container__form_box_form {
+  padding-top: 65px;
+  padding-left: 50px;
+}
+
+.fifth-container .fifth-container__form .fifth-container__form_box .fifth-container__form_box_form input[type=text] {
+  width: 100%;
+  max-width: 300px;
   border: none;
   border-bottom: 1px solid rgba(75, 85, 98, 0.502);
   font-size: 18px;
   font-family: "Gotham";
   color: rgba(75, 85, 98, 0.502);
   line-height: 1.222;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.fifth-container .fifth-container__form .fifth-container__form_box .fifth-container__form_box_form input[type=text]:focus {
+  font-size: 18px;
+  font-family: "Gotham";
+  color: black;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.fifth-container .fifth-container__form .fifth-container__form_box .fifth-container__form_box_form input[type=email] {
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  border-bottom: 1px solid rgba(75, 85, 98, 0.502);
+  font-size: 18px;
+  font-family: "Gotham";
+  color: rgba(75, 85, 98, 0.502);
+  line-height: 1.222;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+
+.fifth-container .fifth-container__form .fifth-container__form_box .fifth-container__form_box_form input[type=email]:focus {
+  font-size: 18px;
+  font-family: "Gotham";
+  color: black;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.fifth-container .fifth-container__form .fifth-container__form_box .fifth-container__form_box_form input[type=button] {
+  background-color: transparent;
+  width: 110px;
+  height: 40px;
+  margin-left: 190px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.sixth-container {
+  width: 100%;
+  max-width: 1600px;
+  height: 524px;
+  background: linear-gradient(45deg, #55b7ff 0%, #7e5aff 100%);
+  background: -ms-linear-gradient(45deg, #55b7ff 0%, #7e5aff 100%);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.sixth-container::after {
+  content: '';
+  background-image: url("../img/scott-webb.png");
+  background-size: cover;
+  width: 100%;
+  max-width: 1600px;
+  height: 524px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.seventh-container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 320px;
+  left: 50px;
+  z-index: 6;
+}
+
+.seventh-container .seventh-container__logo-and-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 206px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon {
+  font-size: 16px;
+  font-family: "FontAwesome";
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 511px;
+  height: 54px;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon a {
+  color: white;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon .fa-facebook-f {
+  margin-left: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 14px 18px 14px 18px;
+  border-radius: 50%;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon .fa-facebook-f:hover {
+  color: #410ecc;
+  cursor: pointer;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon .fa-twitter {
+  margin-left: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 15px 14px 14.5px 14px;
+  border-radius: 50%;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon .fa-twitter:hover {
+  color: #96c2f5;
+  cursor: pointer;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon .fa-instagram {
+  margin-left: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 14px 15px 14px 15px;
+  border-radius: 50%;
+}
+
+.seventh-container .seventh-container__logo-and-socials .seventh-container__logo-and-socials_social-icon .fa-instagram:hover {
+  color: #f170c0;
+  cursor: pointer;
+}
+
+.seventh-container .seventh-container__text {
+  margin-left: 365px;
+  padding-top: 20px;
+  font-size: 14px;
+  font-family: "Gotham";
+  margin-top: 30px;
+  color: white;
+  line-height: 1.571;
 }
 /*# sourceMappingURL=style.css.map */

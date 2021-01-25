@@ -1,0 +1,29 @@
+.sixth-container {
+    width: 100%;
+    max-width: 1600px;
+    height: 524px;
+    background: linear-gradient( 45deg, rgb(85,183,255) 0%, rgb(126,90,255) 100%);
+    background: -moz-linear-gradient( 45deg, rgb(85,183,255) 0%, rgb(126,90,255) 100%);
+    background: -webkit-linear-gradient( 45deg, rgb(85,183,255) 0%, rgb(126,90,255) 100%);
+    background: -ms-linear-gradient( 45deg, rgb(85,183,255) 0%, rgb(126,90,255) 100%);
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  
+    &::after{
+      content: '';
+      background-image: url("../img/scott-webb.png");
+      background-size: cover;
+      width: 100%;
+      max-width: 1600px;
+      height: 524px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+    } 
+}
+  
+

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Monticello</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,17 +19,17 @@
         
             <nav>
                 <ul class="first-container__header_menu">
-                    <li>about us</li>
-                    <li>projects</li>
-                    <li>news</li>
-                    <li>contact</li>
+                    <li><a href="#section1" class="scroll-to">about us</a></li>
+                    <li><a href="#section2" class="scroll-to">projects</a></li>
+                    <li><a href="#section3" class="scroll-to">news</a></li>
+                    <li><a href="#section4" class="scroll-to">contact</a></li>
                 </ul>
             </nav>
         
             <div class="first-container__header_social-icon">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i>
+                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 
@@ -39,11 +39,11 @@
         </div>
 
         <div class="first-container__scroll">
-            <i class="fas fa-chevron-down"></i>
+            <a href="#section4" class="scroll-to"><i class="fas fa-chevron-down"></i></a>
         </div>
     </section>
 
-    <section class="second-container">
+    <section class="second-container" id="section2">
         <div class="second-container__header-text">
             <p>what we do</p>
         </div>
@@ -79,7 +79,7 @@
 
     </section>
 
-    <section class="third-container">
+    <section class="third-container" id="section3">
         <div class="third-container__header">
             <hr></hr>
             <p>latest news</p>
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <section class="fourth-container">
+    <section class="fourth-container" id="section1">
         <div class="fourth-container__header">
             <hr></hr>
             <p>gallery</p>
@@ -170,8 +170,8 @@
         </div>
     </section>
 
-    <section class="fifth-container">
-        <div class="fifth-container__form">
+    <section class="fifth-container" >
+        <div class="fifth-container__form" id="section4">
             <div class="fourth-container__header">
                 <hr></hr>
                 <p>get in touch</p>
@@ -185,23 +185,36 @@
                     <p><i class="far fa-clock"></i>From 07:05AM to 19:30PM</p>
                 </div>
 
-                <div class="fifth-container__form_box_string">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                </div>
-
-                <div class="fifth-container__form_box_button">
-                    <p>Submit</p>
-                </div>
-
+                <form class="fifth-container__form_box_form">
+                    <input type="text" placeholder="Name"></br>
+                    <input type="email" placeholder="Email"></br>
+                    <input type="button" value="SUBMIT">
+                </form>
             </div>
-
-
-
         </div>
-        
-       
     </section>
+
+    <section class="sixth-container"></section>
+
+    <section class="seventh-container">
+        <div class="seventh-container__logo-and-socials">
+            <div class="seventh-container__logo-and-socials_logo">
+                <img src="./img/Logo.png" alt="logo">
+            </div>
     
+            <div class="seventh-container__logo-and-socials_social-icon">
+                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    
+        <div class="seventh-container__text">
+            <p>Copyrights © 2017 Monticello | Made with &#9829 by Ga Huy</p>
+        </div>
+    </section>
+
+
+<script src="main.js"></script>   
 </body>
 </html>

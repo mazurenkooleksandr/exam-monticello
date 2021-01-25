@@ -33,6 +33,8 @@
         line-height: 0.5;
         text-align: center;
         padding-top: 40px;
+        position: relative;
+        z-index: 3;
 
         hr {
             border: none; 
@@ -48,6 +50,8 @@
         display: flex;
         justify-content: space-around;
         padding-top: 100px;
+        position: relative;
+        z-index: 3;
 
         .third-container__first-slide {
             background-color: rgb(255, 255, 255);

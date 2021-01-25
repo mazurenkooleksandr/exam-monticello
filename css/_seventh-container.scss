@@ -1,0 +1,79 @@
+.seventh-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 320px;
+    left: 50px;
+    z-index: 6;
+
+
+    .seventh-container__logo-and-socials {
+        display: flex;
+        padding-left: 206px;
+        justify-content: space-around;
+        
+    
+        .seventh-container__logo-and-socials_social-icon {
+            font-size: 16px;
+            font-family: "FontAwesome";
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            width: 100%;
+            max-width: 511px;
+            height: 54px;
+
+            a {
+                color: rgb(255, 255, 255);
+            }
+      
+            .fa-facebook-f {
+              margin-left: 20px;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              padding: 14px 18px 14px 18px;
+              border-radius: 50%;
+              
+      
+                &:hover {
+                    color: rgb(65, 14, 204);
+                    cursor: pointer;
+                }
+            }
+      
+            .fa-twitter {
+              margin-left: 20px;
+              border: 1px solid  rgba(255, 255, 255, 0.4);
+              padding: 15px 14px 14.5px 14px;
+              border-radius: 50%;
+      
+                &:hover {
+                    color: rgb(150, 194, 245);
+                    cursor: pointer;
+                }
+            }
+      
+            .fa-instagram {
+              margin-left: 20px;
+              border: 1px solid  rgba(255, 255, 255, 0.4);
+              padding: 14px 15px 14px 15px;
+              border-radius: 50%;
+      
+                &:hover {
+                    color: rgb(241, 112, 192);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    .seventh-container__text {
+        margin-left: 365px;
+        padding-top: 20px;
+        font-size: 14px;
+        font-family: "Gotham";
+        margin-top: 30px;
+        color: rgb(255, 255, 255);
+        line-height: 1.571;
+    }
+
+}
