@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
 </head>
 <body>
     <section class="first-container">
@@ -19,17 +24,33 @@
         
             <nav>
                 <ul class="first-container__header_menu">
-                    <li><a href="#section1" class="scroll-to">about us</a></li>
-                    <li><a href="#section2" class="scroll-to">projects</a></li>
-                    <li><a href="#section3" class="scroll-to">news</a></li>
-                    <li><a href="#section4" class="scroll-to">contact</a></li>
+                    <li><a href="#section1" class="scroll-to">
+                        <label for="radiobtnfirst">
+                            <input id="radiobtnfirst" type="radio" name="nav"><p>about us</p>
+                        </label></a>
+                    </li>
+                    <li><a href="#section2" class="scroll-to">
+                        <label for="radiobtnsecond">
+                            <input id="radiobtnsecond" type="radio" name="nav"><p>projects</p>
+                        </label></a>
+                    </li>
+                    <li><a href="#section3" class="scroll-to">
+                        <label for="radiobtnthird">
+                            <input id="radiobtnthird" type="radio" name="nav"><p>news</p>
+                        </label></a>
+                    </li>
+                    <li><a href="#section4" class="scroll-to">
+                        <label for="radiobtnfourth">
+                            <input id="radiobtnfourth" type="radio" name="nav"><p>contact</p>
+                        </label></a>
+                    </li>
                 </ul>
             </nav>
         
             <div class="first-container__header_social-icon">
-                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
 
@@ -39,7 +60,7 @@
         </div>
 
         <div class="first-container__scroll">
-            <a href="#section4" class="scroll-to"><i class="fas fa-chevron-down"></i></a>
+            <a href="#section2" class="scroll-to"><i class="fas fa-chevron-down"></i></a>
         </div>
     </section>
 
@@ -203,9 +224,9 @@
             </div>
     
             <div class="seventh-container__logo-and-socials_social-icon">
-                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     
@@ -216,5 +237,6 @@
 
 
 <script src="main.js"></script>   
+<script src="slick-slider.js"></script>
 </body>
 </html>

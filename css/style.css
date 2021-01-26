@@ -37,6 +37,8 @@
 }
 
 .first-container .first-container__header {
+  width: 100%;
+  max-width: 1600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,6 +74,45 @@
   line-height: 60px;
 }
 
+.first-container .first-container__header .first-container__header_menu li label {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.first-container .first-container__header .first-container__header_menu li p:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  margin: 0 5px 0 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 11px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+
+.first-container .first-container__header .first-container__header_menu li p:before:hover {
+  display: none;
+}
+
+.first-container .first-container__header .first-container__header_menu li input[type=radio] {
+  display: none;
+}
+
+.first-container .first-container__header .first-container__header_menu li input[type=radio]:hover + p:after {
+  content: " ";
+  display: block;
+  background: #ffffff;
+  border-radius: 11px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 22px;
+  left: 0px;
+}
+
 .first-container .first-container__header .first-container__header_menu li a {
   text-decoration: none;
   font-size: 14px;
@@ -80,7 +121,7 @@
 }
 
 .first-container .first-container__header .first-container__header_social-icon {
-  padding-left: 80px;
+  padding-left: 100px;
   padding-top: 51px;
   font-size: 16px;
   font-family: "FontAwesome";

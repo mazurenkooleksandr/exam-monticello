@@ -26,6 +26,8 @@
   }
 
   .first-container__header{
+    width: 100%;
+    max-width: 1600px;
     display: flex;
 
     .first-container__header_logo{
@@ -48,23 +50,66 @@
       height: 54px;
       position: relative;
       z-index: 3;
+      
        
       li{
         margin-left: 80px;
         list-style-type: none;
         line-height: 60px;
 
+        label {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+        }
+
+        p:before {
+          content: " ";
+          display: inline-block;
+          position: relative;
+          top: 1px;
+          margin: 0 5px 0 0;
+          width: 10px;
+          height: 10px;
+          border-radius: 11px;
+          border: 2px solid #ffffff;
+          background-color: transparent;
+
+          &:hover {
+            display: none;
+          }
+        }
+
+        input[type=radio] {
+          display: none;
+        }
+
+        input[type=radio]:hover + p:after {
+          content: " ";
+          display: block;
+          background: #ffffff;
+          border-radius: 11px;
+          width: 14px;
+          height: 14px;
+          position: absolute;
+          top: 22px;
+          left: 0px;
+        }
+
+        
+
         a {
           text-decoration: none;
           font-size: 14px;
           font-family: "Gotham";
           color: rgb(255, 255, 255);
+          
         }
       }
     }
 
     .first-container__header_social-icon {
-      padding-left: 80px;
+      padding-left: 100px;
       padding-top: 51px;
       font-size: 16px;
       font-family: "FontAwesome";
