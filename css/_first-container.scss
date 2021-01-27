@@ -50,7 +50,6 @@
       height: 54px;
       position: relative;
       z-index: 3;
-      
        
       li{
         margin-left: 80px;
@@ -68,6 +67,7 @@
           display: inline-block;
           position: relative;
           top: 1px;
+          right: 5px;
           margin: 0 5px 0 0;
           width: 10px;
           height: 10px;
@@ -93,7 +93,7 @@
           height: 14px;
           position: absolute;
           top: 22px;
-          left: 0px;
+          left: -5px;
         }
 
         
