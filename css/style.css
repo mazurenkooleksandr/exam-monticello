@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +7,7 @@
 
 @font-face {
   font-family: "Gotham";
-  src: url("/fonts/Gotham Medium Regular.ttf");
+  src: url("./fonts/Gotham Medium Regular.ttf");
 }
 
 html {
@@ -1098,7 +1097,6 @@ body {
   overflow: hidden;
 }
 
-/* Лента слайдов */
 .slick-track {
   display: -webkit-box;
   display: -ms-flexbox;
