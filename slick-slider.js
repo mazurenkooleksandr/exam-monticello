@@ -3,7 +3,8 @@ $(document).ready(function(){
         arrows: true,
         dots: true,
         slidesToShow: 3,
-
+        autoplay: true,
+        autoplaySpeed: 4000
     });
 });
 
@@ -12,6 +13,7 @@ $(document).ready(function(){
         arrows: false,
         dots: true,
         slidesToShow: 1,
+        
 
     });
 });
